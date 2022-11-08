@@ -212,7 +212,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 3.3rem;
+    padding-top: 3.2rem;
     margin-bottom: 3.05rem;
   }
   .company-logo {
@@ -230,6 +230,36 @@ main {
     cursor: pointer;
   }
 
+  /* SHOW MENU */
+  .nav__wrapper {
+    background-color: var(--clr-white);
+    position: relative;
+    min-height: auto;
+  }
+  .nav__wrapper.open {
+    display: flex;
+  }
+  .navigation {
+    background-color: var(--clr-white);
+    display: flex;
+    flex-direction: row;
+    min-width: auto;
+  }
+  .navigation .list-item {
+    padding-block: 0;
+    padding-inline: 0;
+  }
+  .link {
+    color: var(--clr-dark-blue);
+    font-size: 1rem;
+    flex: 1;
+  }
+  .cross {
+    display: none;
+  }
+  .nav__wrapper {
+    display: block;
+  }
   /*========
           MAIN =========*/
 
