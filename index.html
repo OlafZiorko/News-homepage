@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <!--Navigation-->
+    <div class="container">
+      <nav class="page__navigation">
+        <img
+          class="company-logo"
+          src="./assets/images/logo.svg"
+          alt="company logo"
+        />
+        <div class="nav__wrapper">
+          <ul class="navigation" role="list">
+            <li class="list-item"><a class="link" href="#">Home</a></li>
+            <li class="list-item"><a class="link" href="#">New</a></li>
+            <li class="list-item"><a class="link" href="#">Popular</a></li>
+            <li class="list-item"><a class="link" href="#">Trending</a></li>
+            <li class="list-item"><a class="link" href="#">Categories</a></li>
+          </ul>
+          <img class="cross" src="./assets/images/icon-menu-close.svg" alt="" />
+        </div>
+        <button class="toggle-menu btn">
+          <img src="./assets/images/icon-menu.svg" alt="" />
+        </button>
+      </nav>
+      <!--Main-->
+      <main>
+        <div class="hero__section">
+          <div class="hero__image-wrapper"></div>
+
+          <section class="hero__content">
+            <h1 class="page-title">The Bright Future of Web 3.0?</h1>
+            <div class="page-description">
+              <p class="text">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button class="btn cta">Read more</button>
+            </div>
+          </section>
+        </div>
+        <!--Aside-->
+        <aside class="aside__section">
+          <h2 class="aside-title">New</h2>
+          <div class="box">
+            <h3 class="aside-sub-title clr-white">Hydrogen VS Electric Cars</h3>
+            <p class="text aside-description">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <div class="box">
+            <h3 class="aside-sub-title clr-white">
+              The Downsides of AI Artistry
+            </h3>
+            <p class="text aside-description">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <div class="box">
+            <h3 class="aside-sub-title clr-white">Is VC Funding Drying Up?</h3>
+            <p class="text aside-description">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means
+            </p>
+          </div>
+        </aside>
+      </main>
+
+      <!--Footer-->
+      <footer class="footer__section">
+        <div class="f-box">
+          <figure>
+            <img
+              class="f-image"
+              src="./assets/images/image-retro-pcs.jpg"
+              alt=""
+            />
+          </figure>
+          <ul class="footer__list">
+            <li><span class="num text">01</span></li>
+            <li><strong> Reviving Retro PCs </strong></li>
+            <li>
+              <p class="text">
+                What happens when old PCs are given modern upgrades?
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="f-box">
+          <figure>
+            <img
+              class="f-image"
+              src="./assets/images/image-top-laptops.jpg"
+              alt=""
+            />
+          </figure>
+          <ul class="footer__list">
+            <li><span class="num text">02</span></li>
+            <li><strong> Top 10 Laptops of 2022</strong></li>
+            <li>
+              <p class="text">Our best picks for various needs and budgets.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="f-box">
+          <figure>
+            <img
+              class="f-image"
+              src="./assets/images/image-gaming-growth.jpg"
+              alt=""
+            />
+          </figure>
+          <ul class="footer__list">
+            <li><span class="num text">03 </span></li>
+            <li><strong> The Growth of Gaming </strong></li>
+            <li>
+              <p class="text">
+                How the pandemic has sparked fresh opportunities.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
